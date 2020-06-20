@@ -4,7 +4,7 @@ set -e
 
 lb config noauto \
         --apt-http-proxy "http://127.0.0.1:3142" \
-        --bootloaders "syslinux" \
+        --bootloaders "syslinux,grub-efi" \
         --distribution "buster" \
         --architectures "amd64" \
         --archive-areas "main contrib non-free" \
@@ -15,7 +15,9 @@ lb config noauto \
         --bootappend-install "locales=fr_FR.UTF-8" \
         --binary-images "iso-hybrid" \
 	--uefi-secure-boot "enable" \
-        --iso-volume "NATOS" \
+        --linux-flavours "amd64" \
+	--linux-packages "linux-image" \
+	--iso-volume "NATOS" \
 	--iso-application "NATOS" \
         --backports "false" \
         --updates "true" \
