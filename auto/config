@@ -1,0 +1,21 @@
+#!/bin/sh
+
+set -e
+
+lb config noauto \
+        --apt-http-proxy "http://127.0.0.1:3142" \
+        --bootloaders "syslinux" \
+        --distribution "buster" \
+        --architectures "amd64" \
+        --archive-areas "main contrib non-free" \
+        --apt-recommends "true" \
+        --debian-installer-gui "true" \
+        --debian-installer "live" \
+        --bootappend-live "lang=fr_FR.UTF-8 locales=fr_FR.UTF-8 keyboard-layouts=fr timezone=Europe/Paris utc=yes keyboard-model=pc105 boot=live peristence components username=nat" \
+        --bootappend-install "locales=fr_FR.UTF-8" \
+        --binary-images "iso" \
+        --iso-volume "NATOS" \
+	--iso-application "NATOS" \
+        --backports "true" \
+        --updates "true" \
+        "${@}"

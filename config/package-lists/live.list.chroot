@@ -1,0 +1,24 @@
+# base
+live-boot
+live-config
+live-config-systemd
+sudo firmware-linux-nonfree
+console-setup console-setup-linux user-setup console-data
+task-french task-laptop
+
+#lxde
+task-lxde-desktop
+
+#codecs non libre
+libavcodec-extra unrar ttf-mscorefonts-installer gstreamer1.0-plugins-ugly
+
+#utilitaires
+lshw chkrootkit net-tools usbutils pciutils lsb-release bzip2 hdparm bleachbit
+gzip tar lzma ffmpeg wpasupplicant wireless-tools iw cups gufw
+
+#themes
+adwaita-icon-theme breeze-icon-theme deepin-icon-theme faenza-icon-theme human-icon-theme
+mate-themes metacity-themes plymouth-themes
+
+#applications
+xpdf gimp vlc keepassx synaptic thunderbird stellarium scribus audacity rhythmbox
