@@ -11,11 +11,12 @@ lb config noauto \
         --apt-recommends "true" \
         --debian-installer-gui "true" \
         --debian-installer "live" \
-        --bootappend-live "lang=fr_FR.UTF-8 locales=fr_FR.UTF-8 keyboard-layouts=fr timezone=Europe/Paris utc=yes keyboard-model=pc105 boot=live peristence components username=nat" \
+        --bootappend-live "lang=fr_FR.UTF-8 locales=fr_FR.UTF-8 keyboard-layouts=fr timezone=Europe/Paris utc=yes keyboard-model=pc105 hostname=natos boot=live peristence components username=nat" \
         --bootappend-install "locales=fr_FR.UTF-8" \
-        --binary-images "iso" \
+        --binary-images "iso-hybrid" \
+	--uefi-secure-boot "enable" \
         --iso-volume "NATOS" \
 	--iso-application "NATOS" \
-        --backports "true" \
+        --backports "false" \
         --updates "true" \
         "${@}"

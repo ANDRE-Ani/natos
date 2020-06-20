@@ -10,7 +10,7 @@ task-french task-laptop
 task-lxde-desktop
 
 #codecs non libre
-libavcodec-extra unrar ttf-mscorefonts-installer gstreamer1.0-plugins-ugly
+libavcodec-extra unrar gstreamer1.0-plugins-ugly
 
 #utilitaires
 lshw chkrootkit net-tools usbutils pciutils lsb-release bzip2 hdparm bleachbit
