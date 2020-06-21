@@ -10,5 +10,5 @@ Développé par **Numericatous**
 [Numericatous](https://numericatous.fr)  
 
 
-
+La version **0.1** est une version **beta**, ne pas utiliser en production.
 
