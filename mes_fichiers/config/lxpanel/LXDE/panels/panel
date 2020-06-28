@@ -69,6 +69,12 @@ Plugin {
     Button {
       id=libreoffice-writer.desktop
     }
+    Button {
+      id=thunderbird.desktop
+    }
+    Button {
+      id=rhythmbox.desktop
+    }
   }
 }
 Plugin {
