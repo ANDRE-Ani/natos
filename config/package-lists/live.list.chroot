@@ -9,8 +9,8 @@ task-french task-laptop
 #lxde
 task-lxde-desktop
 
-#codecs non libre
-libavcodec-extra unrar gstreamer1.0-plugins-ugly
+#codecs
+libavcodec-extra unrar gstreamer1.0-plugins-ugly libdvdread4
 
 #utilitaires
 lshw chkrootkit net-tools usbutils pciutils lsb-release bzip2 hdparm bleachbit
@@ -18,7 +18,7 @@ gzip tar lzma ffmpeg wpasupplicant wireless-tools iw cups gufw
 
 #themes
 adwaita-icon-theme breeze-icon-theme deepin-icon-theme faenza-icon-theme human-icon-theme
-mate-themes metacity-themes plymouth-themes
+mate-themes metacity-themes plymouth-themes arc-theme numix-gtk-theme
 
 #applications
 xpdf gimp vlc keepassx synaptic thunderbird stellarium scribus audacity rhythmbox

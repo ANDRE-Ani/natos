@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=NATOS
+Description=Theme Plymouth de NATOS
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/natos
+ScriptFile=/usr/share/plymouth/themes/natos/natos.script
