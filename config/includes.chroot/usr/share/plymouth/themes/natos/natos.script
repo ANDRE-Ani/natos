@@ -6,10 +6,10 @@ wallpaper_sprite = Sprite(resized_wallpaper_image);
 wallpaper_sprite.SetZ(-100);
 
 message_sprite = Sprite();
-message_sprite.SetPosition(screen_width * 0.2, screen_height * 0.6, 10000);
+message_sprite.SetPosition(screen_width * 0.2, screen_height * 0.8, 10000);
  
 fun message_callback (text) {
-  my_image = Image.Text(text, 0, 0, 0);
+  my_image = Image.Text(text, 0.66, 0.80, 0.28);
   message_sprite.SetImage(my_image);
 }
  
