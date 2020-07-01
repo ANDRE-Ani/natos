@@ -7,7 +7,7 @@ console-setup console-setup-linux user-setup console-data
 task-french task-french-desktop task-laptop
 
 #environnement de bureau
-mate-desktop-environment
+mate-desktop-environment mate-dock-applet mate-indicator-applet mate-menu mate-netbook mate-tweak
 lightdm lightdm-gtk-greeter-settings
 
 #codecs
@@ -15,7 +15,7 @@ libavcodec-extra unrar gstreamer1.0-plugins-ugly libdvdread4
 
 #utilitaires
 sudo lshw chkrootkit net-tools usbutils pciutils lsb-release bzip2 hdparm bleachbit
-gzip tar lzma ffmpeg wpasupplicant wireless-tools iw cups gufw numlockx
+gzip tar lzma ffmpeg wpasupplicant wireless-tools iw cups gufw numlockx vokoscreen
 
 #themes
 adwaita-icon-theme breeze-icon-theme deepin-icon-theme faenza-icon-theme human-icon-theme
