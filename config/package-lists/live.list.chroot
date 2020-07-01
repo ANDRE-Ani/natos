@@ -2,23 +2,25 @@
 live-boot
 live-config
 live-config-systemd
-sudo firmware-linux-nonfree
+firmware-linux-nonfree
 console-setup console-setup-linux user-setup console-data
-task-french task-laptop
+task-french task-french-desktop task-laptop
 
-#lxde
-task-lxde-desktop
+#environnement de bureau
+mate-desktop-environment
+lightdm lightdm-gtk-greeter-settings
 
 #codecs
 libavcodec-extra unrar gstreamer1.0-plugins-ugly libdvdread4
 
 #utilitaires
-lshw chkrootkit net-tools usbutils pciutils lsb-release bzip2 hdparm bleachbit
-gzip tar lzma ffmpeg wpasupplicant wireless-tools iw cups gufw
+sudo lshw chkrootkit net-tools usbutils pciutils lsb-release bzip2 hdparm bleachbit
+gzip tar lzma ffmpeg wpasupplicant wireless-tools iw cups gufw numlockx
 
 #themes
 adwaita-icon-theme breeze-icon-theme deepin-icon-theme faenza-icon-theme human-icon-theme
 mate-themes metacity-themes plymouth-themes arc-theme numix-gtk-theme
 
 #applications
-xpdf gimp vlc keepassx synaptic thunderbird stellarium scribus audacity rhythmbox
+xpdf gimp vlc keepassxc synaptic thunderbird stellarium scribus audacity rhythmbox
+libreoffice libreoffice-l10n-fr myspell-fr openclipart-libreoffice libreoffice-gtk3
