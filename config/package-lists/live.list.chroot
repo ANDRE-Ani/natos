@@ -16,6 +16,7 @@ libavcodec-extra unrar gstreamer1.0-plugins-ugly libdvdread4
 #utilitaires
 sudo lshw chkrootkit net-tools usbutils pciutils lsb-release bzip2 hdparm bleachbit
 gzip tar lzma ffmpeg wpasupplicant wireless-tools iw cups gufw numlockx vokoscreen
+hwinfo lame disktype checksecurity gparted
 
 #themes
 adwaita-icon-theme breeze-icon-theme deepin-icon-theme faenza-icon-theme human-icon-theme
@@ -24,3 +25,5 @@ mate-themes metacity-themes plymouth-themes arc-theme numix-gtk-theme
 #applications
 xpdf gimp vlc keepassxc synaptic thunderbird stellarium scribus audacity rhythmbox
 libreoffice libreoffice-l10n-fr myspell-fr openclipart-libreoffice libreoffice-gtk3
+gnome-disk-utility  rkhunter mencoder ogmrip openshot okular inkscape easytag pdfarranger
+k3b k3b-i18n deja-dup cheese shotwell lightning lightning-l10n-fr thunderbird-l10n-fr
