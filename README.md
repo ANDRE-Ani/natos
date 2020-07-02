@@ -13,5 +13,5 @@ Développé par **Numericatous**
 
 
 
-La version **0.1** est une version **beta**, ne pas utiliser en production.
+La version **0.2** est une version **beta**, ne pas utiliser en production.
 
