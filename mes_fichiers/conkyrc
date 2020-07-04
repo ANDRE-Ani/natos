@@ -1,0 +1,75 @@
+
+conky.config = {
+
+background = true,
+double_buffer = true,
+use_xft = true,
+font = 'Ubuntu Bold:size=9',
+xftalpha = 1,
+update_interval = 1.0,
+total_run_times = 0,
+own_window = true,
+own_window_colour = '#000000',
+own_window_transparent = false,
+own_window_type = 'dock',
+own_window_argb_visual = true,
+own_window_argb_value = 70,
+own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
+maximum_width = 290,
+draw_shades = false,
+draw_outline = false,
+draw_borders = false,
+draw_graph_borders = false,
+default_color = lightgrey,
+default_shade_color = '#000000',
+default_outline_color = '#000000',
+alignment = 'top_right',
+gap_x = 25,
+gap_y = 30,
+no_buffers = true,
+uppercase = false,
+cpu_avg_samples = 4,
+override_utf8_locale = false,
+color1 = cyan,
+color2 = gray,
+}
+
+conky.text = [[
+${font verdana:size=8:style=bold}${color cc6633}SYSTEME${font } ${color 996666}${hr 1}
+${offset 21}${font mono:size=18:}${color ffffcc}${time %H:%M:%S %p}${color }${font}
+${color b6c9c9}${time %A} ${font mono:size=9:style=bold}${color }${time %e %B %Y}${font}
+${color b6c9c9}Hostname:	  ${font mono:size=8:style=bold}${color }$nodename
+${color b6c9c9}Kernel:     ${font mono:size=8:style=bold}${color }$kernel
+${color b6c9c9}UpTime:     ${font mono:size=8:style=bold}${color }$uptime${font}
+${color b6c9c9}Machine:   ${font mono:size=8:style=bold}${color } $machine
+${color b6c9c9}Batterie:   ${font mono:size=8:style=bold}${color }${battery_percent}%
+${color b6c9c9}Systeme :  ${font mono:size=8:style=bold}${color } $sysname
+
+${color cc6633}MEMOIRE${color}${hr 1}
+RAM${alignr}$mem of $memmax
+${membar 6,70}${alignr}${memperc}%
+Swap${alignr}${swap} of ${swapmax}
+${swapbar 6,70}${alignr}${swapperc}%
+${font verdana:size=8:style=bold}${color cc6633}DISQUE DUR${font }${color} ${hr 1}
+$alignr Utilisation : ${fs_used_perc /}% ${fs_free /} ${fs_bar 5,120 /}
+${font verdana:size=8:style=bold}${color cc6633}PROCESSEUR${color}${hr 1}
+${color2}${font :size=8}Temperature${font} $alignr ${exec sensors | grep 'Package id 0' | cut -c 17-18}C
+${color2}${font :size=8}Frequence${alignr} @ ${freq_g}GHz
+${cpubar 6,70}${alignr}${cpu cpu}%
+${font verdana:size=8:style=bold}${color cc6633}PROCESSUS${font } ${color 996666}${hr 1}
+${color b6c9c9}Process : $processes Running : $running_processes
+${color b6c9c9}CPU:
+${color #ff6600} ${top name 1}   ${top_mem pid 1} ${top_mem cpu 1}
+${color lightgrey} ${top name 2}   ${top_mem pid 2} ${top cpu 2}
+${color lightgrey} ${top name 3}   ${top_mem pid 3} ${top cpu 3}
+${color lightgrey} ${top name 4}   ${top_mem pid 4} ${top cpu 4}
+${color b6c9c9}MEM:
+${color #ff3300} ${top_mem name 1}   ${top pid 1} ${top_mem mem 1}
+${color lightgrey} ${top_mem name 2}   ${top pid 2} ${top_mem mem 2}
+${color lightgrey} ${top_mem name 3}   ${top pid 3} ${top_mem mem 3}
+${color lightgrey} ${top_mem name 4}   ${top pid 4} ${top_mem mem 4}
+${font verdana:size=8:style=bold}${color cc6633}RESEAU${font } ${color 996666}${hr 1}
+${font verdana:size=8:style=bold}${color b6c9c9}IP Local$alignr${font Ubuntu Mono:size=10}${exec ip a | grep inet | grep lo | cut -d \/ -f1 | sed 's/[^0-9\.]*//g' | grep 192}
+${font verdana:size=8:style=bold}${color b6c9c9}IP Externe$alignr${font Ubuntu Mono:size=10} ${texeci 3600 wget http://checkip.dyndns.org -O - -o /dev/null | cut -d : -f 2 | cut -d \< -f 1}
+]]
+

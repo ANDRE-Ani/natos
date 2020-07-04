@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/nat/.conkyboot.sh
+Hidden=false
+X-MATE-Autostart-enabled=true
+Name[fr_FR]=Conky
+Name=Conky
+Comment[fr_FR]=Conky
+Comment=Conky
