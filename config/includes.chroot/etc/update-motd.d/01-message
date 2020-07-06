@@ -1,0 +1,8 @@
+#!/bin/sh
+
+HOSTNAME='uname -n'
+
+echo "Bienvenue sur NATOS\n\n"
+echo "Hotsname : $HOSTNAME\n\n"
+echo "Uptime : $(uptime)\n\n"
+
