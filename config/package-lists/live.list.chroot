@@ -3,28 +3,107 @@ live-boot
 live-config
 live-config-systemd
 firmware-linux-nonfree
-console-setup console-setup-linux user-setup console-data
-task-french task-french-desktop task-laptop
+console-setup
+console-setup-linux
+user-setup
+console-data
+task-french
+task-french-desktop
+task-laptop
 
 #environnement de bureau
-mate-desktop-environment mate-dock-applet mate-indicator-applet mate-menu mate-netbook mate-tweak
-lightdm lightdm-gtk-greeter-settings
+mate-desktop-environment
+mate-dock-applet
+mate-indicator-applet
+mate-menu
+mate-netbook
+mate-tweak
+lightdm
+lightdm-gtk-greeter-settings
 
 #codecs
-libavcodec-extra unrar gstreamer1.0-plugins-ugly libdvdread4
+libavcodec-extra
+unrar
+gstreamer1.0-plugins-ugly
+libdvdread4
 
 #utilitaires
-sudo lshw chkrootkit net-tools usbutils pciutils lsb-release bzip2 hdparm bleachbit
-gzip tar lzma ffmpeg wpasupplicant wireless-tools iw cups gufw numlockx vokoscreen
-hwinfo lame disktype checksecurity gparted lm-sensors hddtemp
+sudo
+lshw-gtk
+chkrootkit
+net-tools
+usbutils
+pciutils
+bzip2
+hdparm
+bleachbit
+gzip
+lzma
+ffmpeg
+wpasupplicant
+wireless-tools
+iw
+cups
+gufw
+numlockx
+vokoscreen
+hwinfo
+lame
+disktype
+checksecurity
+gparted
+lm-sensors
+hddtemp
+network-manager
+broadcom-sta-common
+testdisk
+network-manager-config-connectivity-debian
+mate-user-share
+mate-sensors-applet-common
+network-manager-gnome
+curl
 
 #themes
-adwaita-icon-theme breeze-icon-theme deepin-icon-theme faenza-icon-theme human-icon-theme
-mate-themes metacity-themes plymouth-themes arc-theme numix-gtk-theme
+adwaita-icon-theme
+breeze-icon-theme
+deepin-icon-theme
+faenza-icon-theme
+human-icon-theme
+mate-themes
+plymouth-themes
 
 #applications
-xpdf gimp vlc keepassxc synaptic thunderbird stellarium scribus audacity rhythmbox
-libreoffice libreoffice-l10n-fr myspell-fr openclipart-libreoffice libreoffice-gtk3
-gnome-disk-utility  rkhunter mencoder ogmrip openshot okular inkscape easytag pdfarranger
-k3b k3b-i18n deja-dup cheese shotwell lightning lightning-l10n-fr thunderbird-l10n-fr
-conky conky-std
+xpdf
+gimp
+vlc
+keepassxc
+synaptic
+thunderbird
+stellarium
+scribus
+audacity
+rhythmbox
+libreoffice
+libreoffice-l10n-fr
+myspell-fr
+openclipart-libreoffice
+libreoffice-gtk3
+gnome-disk-utility
+rkhunter
+mencoder
+ogmrip
+openshot
+okular
+inkscape
+easytag
+pdfarranger
+k3b
+k3b-i18n
+deja-dup
+cheese
+shotwell
+lightning
+lightning-l10n-fr
+thunderbird-l10n-fr
+conky-all
+zulucrypt-gui

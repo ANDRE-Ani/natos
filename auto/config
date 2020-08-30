@@ -3,7 +3,6 @@
 set -e
 
 lb config noauto \
-        --apt-http-proxy "http://127.0.0.1:3142" \
         --bootloaders "syslinux,grub-efi" \
         --distribution "buster" \
         --architectures "amd64" \
@@ -11,14 +10,15 @@ lb config noauto \
         --apt-recommends "true" \
         --debian-installer-gui "true" \
         --debian-installer "live" \
-        --bootappend-live "lang=fr_FR.UTF-8 locales=fr_FR.UTF-8 keyboard-layouts=fr timezone=Europe/Paris utc=yes keyboard-model=pc105 hostname=natos boot=live peristence components username=nat" \
+        --bootappend-live "lang=fr_FR.UTF-8 locales=fr_FR.UTF-8 keyboard-layouts=fr timezone=Europe/Paris utc=yes keyboard-model=pc105 hostname=natos boot=live persistence components username=nat" \
         --bootappend-install "locales=fr_FR.UTF-8" \
         --binary-images "iso-hybrid" \
-	--uefi-secure-boot "enable" \
+	--uefi-secure-boot "disable" \
         --linux-flavours "amd64" \
 	--linux-packages "linux-image" \
+	--binary-filesystem "fat32" \
 	--iso-volume "NATOS" \
 	--iso-application "NATOS" \
         --backports "false" \
         --updates "true" \
-        "${@}"
+	--security "true" \

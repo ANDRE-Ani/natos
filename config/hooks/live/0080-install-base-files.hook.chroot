@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -e
+
+dpkg -i /var/cache/apt/archives/base-files_1.0_amd64.deb

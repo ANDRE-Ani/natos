@@ -1,8 +1,0 @@
-NAME=NATOS
-VERSION="0.4"
-ID=natos
-VERSION_ID=0.4
-PRETTY_NAME="NATOS-0.4"
-ANSI_COLOR="0;34"
-HOME_URL="https://numericatous.fr/"
-BUG_REPORT_URL="https://github.com/ANDRE-Ani/natos"

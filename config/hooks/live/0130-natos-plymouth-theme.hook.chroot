@@ -1,5 +1,0 @@
-#!/bin/bash
-
-set -e
-
-plymouth-set-default-theme -R natos
