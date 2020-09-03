@@ -1,11 +1,11 @@
 [directory]
 caja-icon-view-keep-aligned=true
-caja-icon-view-layout-timestamp=1594614799
+caja-icon-view-layout-timestamp=1599050065
 
 [home]
 caja-icon-position=64,22
 icon-scale=1
-caja-icon-position-timestamp=1594614799
+caja-icon-position-timestamp=1599050065
 
 [computer]
 caja-icon-position=64,142
@@ -16,3 +16,8 @@ caja-icon-position-timestamp=1594457536
 caja-icon-position=64,142
 icon-scale=1
 caja-icon-position-timestamp=1594458092
+
+[Volume de 1,0 Go.volume]
+caja-icon-position=64,142
+icon-scale=1
+caja-icon-position-timestamp=1598969603

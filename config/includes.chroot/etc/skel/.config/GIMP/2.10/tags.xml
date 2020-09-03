@@ -769,18 +769,6 @@
   <resource identifier="${gimp_data_dir}/palettes/Web.gpl" checksum="175f7ac7d27c0da053675be2ea6b2da5">
   </resource>
 
-  <resource identifier="Bitstream Charter" checksum="(null)">
-  </resource>
-
-  <resource identifier="Bitstream Charter Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Bitstream Charter Bold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Bitstream Charter Italic" checksum="(null)">
-  </resource>
-
   <resource identifier="Caladea" checksum="(null)">
   </resource>
 
@@ -791,6 +779,21 @@
   </resource>
 
   <resource identifier="Caladea Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Cantarell" checksum="(null)">
+  </resource>
+
+  <resource identifier="Cantarell Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Cantarell Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Cantarell Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Cantarell Ultra-Bold" checksum="(null)">
   </resource>
 
   <resource identifier="Carlito" checksum="(null)">
@@ -815,18 +818,6 @@
   </resource>
 
   <resource identifier="Century Schoolbook L Medium" checksum="(null)">
-  </resource>
-
-  <resource identifier="Courier 10 Pitch" checksum="(null)">
-  </resource>
-
-  <resource identifier="Courier 10 Pitch Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Courier 10 Pitch Bold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Courier 10 Pitch Italic" checksum="(null)">
   </resource>
 
   <resource identifier="DejaVu Math TeX Gyre" checksum="(null)">
@@ -973,6 +964,60 @@
   <resource identifier="Gentium Italic" checksum="(null)">
   </resource>
 
+  <resource identifier="Lato" checksum="(null)">
+  </resource>
+
+  <resource identifier="Lato Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Lato Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Lato Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Lato Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Lato Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Lato Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Lato Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Lato Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Lato Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Lato Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Lato Semi-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Lato Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Lato Thin Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Lato Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Lato Ultra-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Lato Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Lato Ultra-Light Italic" checksum="(null)">
+  </resource>
+
   <resource identifier="Liberation Mono" checksum="(null)">
   </resource>
 
@@ -1058,6 +1103,78 @@
   </resource>
 
   <resource identifier="Linux Libertine O Semi-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_AMS" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_Caligraphic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_Caligraphic Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_Fraktur" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_Fraktur Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_Main" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_Main Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_Main Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_Math Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_Math Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_SansSerif" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_SansSerif Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_SansSerif Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_Script" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_Size1" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_Size2" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_Size3" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_Size4" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_Typewriter" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_Vector-Bold Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_Vector Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_WinChrome" checksum="(null)">
+  </resource>
+
+  <resource identifier="MathJax_WinIE6" checksum="(null)">
   </resource>
 
   <resource identifier="Monospace" checksum="(null)">

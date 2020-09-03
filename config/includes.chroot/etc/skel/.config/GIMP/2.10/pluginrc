@@ -6,20 +6,6 @@
 (protocol-version 24)
 (file-version 5)
 
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/xsane" 1541457411
-    (proc-def "xsane" 2
-         "Front-end pour l'interface SANE"
-         "Cette fonction permet l'accès aux scanners et autres périphériques d'acquisition d'images à travers SANE (Scanner Access Now Easy)."
-         "Oliver Rauch"
-         "Oliver Rauch"
-         "1998-2013"
-         ""
-         1
-        (menu-path "<Image>/File/Create/Acquire/XSane/Device dialog...")
-        (icon icon-name -1 "")
-         ""
-         1 0
-        (proc-arg 0 "run-mode" "Interactive, non-interactive")))
 (plug-in-def "${gimp_plug_in_dir}/plug-ins/web-browser/web-browser" 1545661022
     (proc-def "plug-in-web-browser" 1
          "Open an URL in the user specified web browser"
